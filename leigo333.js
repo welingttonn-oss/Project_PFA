@@ -2,5 +2,5 @@ const leigo333 = {
     heroi: homemAranha,
     ceu: Azul,
     grama: verde,
-    agua: verde
+    agua: esverdeada
 }
