@@ -1,0 +1,1 @@
+print('Olá mundo, te imploro, preciso aprender 😖😤😭')
