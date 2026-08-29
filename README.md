@@ -1,0 +1,45 @@
+Projeto iniciado em 29/08 
+
+Personal Finance Automation (PFA)
+
+Objetivo geral:
+Criar um sistema desktop que, de forma automática ou manual, coleta cotações de ativos financeiros (ações, moedas, criptomoedas) a partir de uma API pública gratuita, armazena os dados em um banco de dados local, gera planilhas e gráficos com indicadores (média, variação, máximos/mínimos) e envia um resumo por e-mail periodicamente.
+
+Por que este projeto atende a todos os seus interesses?
+
+Automação web/API: coleta de dados financeiros via API gratuita (ex.: AwesomeAPI, Yahoo Finance, Alpha Vantage).
+
+Planilhas/relatórios: geração de Excel com pandas/openpyxl.
+
+E-mail: envio programado de relatório diário/semanal.
+
+Arquivos locais: organização de relatórios em pastas.
+
+Integração entre sistemas: API + banco SQLite.
+
+Agendamento: execução automática com biblioteca schedule ou Agendador de Tarefas do Windows.
+
+Interface gráfica: janela com Tkinter para configuração e acionamento manual.
+
+Executável: transformar em .exe com PyInstaller.
+
+Dashboard/relatório: gráficos gerados com matplotlib e planilhas formatadas.
+
+Dificuldade: Avançada (mas construída de forma incremental).
+Duração estimada: 12 a 16 semanas (com dedicação de ~14h/semana).
+
+PFA/
+├── src/
+│   ├── coleta/
+│   ├── processamento/
+│   ├── relatorio/
+│   ├── email/
+│   ├── agendamento/
+│   └── interface/
+├── dados/
+├── relatorios/
+├── logs/
+├── config/
+├── main.py
+├── requirements.txt
+└── README.md
