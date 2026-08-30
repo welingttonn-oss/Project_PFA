@@ -26,6 +26,7 @@ Por que este projeto atende a todos os seus interesses?
     Dashboard/relatório: gráficos gerados com matplotlib e planilhas formatadas.
 
 Cronograma de aprendizado:
+30/08/2026:
     Aprendi o que é git e github, aprendi usar o desktop github
     Relembrei sobre funções, aprendi a estruturar pastas, aprendi sobre o main.py
         main:
