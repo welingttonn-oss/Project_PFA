@@ -8,25 +8,17 @@ Objetivo geral:
 Por que este projeto atende a todos os seus interesses?
 
     Automação web/API: coleta de dados financeiros via API gratuita (ex.: AwesomeAPI, Yahoo Finance, Alpha Vantage).
-
     Planilhas/relatórios: geração de Excel com pandas/openpyxl.
-
     E-mail: envio programado de relatório diário/semanal.
-
     Arquivos locais: organização de relatórios em pastas.
-
     Integração entre sistemas: API + banco SQLite.
-
     Agendamento: execução automática com biblioteca schedule ou Agendador de Tarefas do Windows.
-
     Interface gráfica: janela com Tkinter para configuração e acionamento manual.
-
     Executável: transformar em .exe com PyInstaller.
-
     Dashboard/relatório: gráficos gerados com matplotlib e planilhas formatadas.
 
-Cronograma de aprendizado:
-30/08/2026:
+Diário/Cronograma de aprendizado:
+29/08/2026:
     Aprendizado:
     Aprendi o que é git e github, aprendi usar o desktop github
     Relembrei sobre funções, aprendi a estruturar pastas, aprendi sobre o main.py
@@ -38,4 +30,11 @@ Cronograma de aprendizado:
         script para uso: pip freeze > requirements
     Dificuldades:
     Maior dificuldade foi o git hub, porém, consegui me adaptar com o desktop e agora consigo fazer os commit tranquilamente.
+30/08/2026:
+    Iniciando no aprendizado sobre API que estão uma forma de integrar com outros sistemas usando um json.
+    aprendi que precisamos iniciar a URL e fazer uma função que traga retornos expecificos, caso necessários.
+    Dificuldades:
+    no exercicio tanto a URL quando a chave principal era nomes parecidos, isso ocorreu um erro que demorei a entender. além disso, também entendi que necesses casos usar o replace ajuda a tirar o caracter que não seria necessário. além de usar os metodos upper e split para tratar o retorno do usuário. poderia utilizar o try/except mais como é uma exercicio para o futuro achei melhor deixa-lo para depois.
+
+
 

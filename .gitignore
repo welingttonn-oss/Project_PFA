@@ -1,3 +1,5 @@
 .venv
 .Imagens
 .__pycache__
+.testesrapidos.py
+

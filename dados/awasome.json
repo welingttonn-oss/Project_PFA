@@ -1,0 +1,15 @@
+{
+    "EURBRL": {
+        "code": "EUR",
+        "codein": "BRL",
+        "name": "Euro/Real Brasileiro",
+        "high": "6.0561",
+        "low": "5.987",
+        "varBid": "-0.0097",
+        "pctChange": "-0.161252",
+        "bid": "6.0056",
+        "ask": "6.0076",
+        "timestamp": "1787955368",
+        "create_date": "2026-08-28 19:16:08"
+    }
+}
