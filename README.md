@@ -27,6 +27,7 @@ Por que este projeto atende a todos os seus interesses?
 
 Cronograma de aprendizado:
 30/08/2026:
+    Aprendizado:
     Aprendi o que é git e github, aprendi usar o desktop github
     Relembrei sobre funções, aprendi a estruturar pastas, aprendi sobre o main.py
         main:
@@ -35,3 +36,6 @@ Cronograma de aprendizado:
     Gitignore serve para avisar o git o que não versionar.
     requeriments serve para salvar as versões dos PIPs instalados no venv
         script para uso: pip freeze > requirements
+    Dificuldades:
+    Maior dificuldade foi o git hub, porém, consegui me adaptar com o desktop e agora consigo fazer os commit tranquilamente.
+
