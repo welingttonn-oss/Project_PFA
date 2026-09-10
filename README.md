@@ -46,4 +46,21 @@ Diário/Cronograma de aprendizado:
 	    except KeyError
     Outro ponto:
 	    Quando a função devolve duas variaveis, e a chamada de função  usar no excpet o None None e sempre validar se o resultado das duas não são None.
+    .ENV dando segurança a dados sensiveis.
+        Aprendi que o .env serve para esconder dados sensiveis, nas quais não podem ser vazados.
+        Como usar:
+            criar um arquivo .env
+            criar suas variaveis que devem ser escondidas
+                como:
+                    dados=a,b,c
+                    note que esses dados estão sem espaço separados por virgulas.
+        Como chamar no projeto?
+            Importar 
+                import os
+                from dotenv import load_dotenv - criar o acionamento
+                load_dotenv() - acionar o acionamento.
 
+                Dados = os.getenv('dados')
+    **BÁSCICO**:
+        pronto importante, basico mas, as vezes esqueço:
+        para separar uma string por um caracter especifico, usa-se split e o replace serve para substituir um por outro.
