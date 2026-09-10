@@ -1,6 +1,9 @@
 import requests
 import json
 
+
+
+
 # url = "https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
 # response = requests.get(url)
 
