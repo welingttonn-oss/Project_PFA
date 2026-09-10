@@ -36,5 +36,14 @@ Diário/Cronograma de aprendizado:
     Dificuldades:
     no exercicio tanto a URL quando a chave principal era nomes parecidos, isso ocorreu um erro que demorei a entender. além disso, também entendi que necesses casos usar o replace ajuda a tirar o caracter que não seria necessário. além de usar os metodos upper e split para tratar o retorno do usuário. poderia utilizar o try/except mais como é uma exercicio para o futuro achei melhor deixa-lo para depois.
 
-
+10/09/2026:
+    Tratamento de erros em chamadas de API:
+    Quando necessário fazer um teste de API se está respondendo:
+        Devemos fazer um try/except:
+	        Primeiro no response
+            Se der erro usar o requestis.exceptions
+        Se e a moeda der erro
+	    except KeyError
+    Outro ponto:
+	    Quando a função devolve duas variaveis, e a chamada de função  usar no excpet o None None e sempre validar se o resultado das duas não são None.
 

@@ -2,4 +2,4 @@
 .Imagens
 .__pycache__
 .testesrapidos.py
-
+.env
