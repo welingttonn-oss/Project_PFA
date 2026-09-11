@@ -1,0 +1,130 @@
+{
+    "chart": {
+        "result": [
+            {
+                "meta": {
+                    "currency": "BRL",
+                    "symbol": "VALE3.SA",
+                    "exchangeName": "SAO",
+                    "fullExchangeName": "São Paulo",
+                    "instrumentType": "EQUITY",
+                    "firstTradeDate": 946900800,
+                    "regularMarketTime": 1789157139,
+                    "hasPrePostMarketData": false,
+                    "gmtoffset": -10800,
+                    "timezone": "BRT",
+                    "exchangeTimezoneName": "America/Sao_Paulo",
+                    "regularMarketPrice": 78.2,
+                    "regularMarketChangePercent": -0.038,
+                    "fulldayPrice": 78.2,
+                    "fulldayChange": -0.03,
+                    "fulldayChangePercent": -0.038,
+                    "fiftyTwoWeekHigh": 91.62,
+                    "fiftyTwoWeekLow": 56.54,
+                    "regularMarketDayHigh": 78.64,
+                    "regularMarketDayLow": 77.4,
+                    "regularMarketVolume": 12211800,
+                    "longName": "Vale S.A.",
+                    "shortName": "VALE        ON      NM",
+                    "chartPreviousClose": 78.45,
+                    "priceHint": 2,
+                    "currentTradingPeriod": {
+                        "pre": {
+                            "timezone": "BRT",
+                            "start": 1789130700,
+                            "end": 1789131600,
+                            "gmtoffset": -10800
+                        },
+                        "regular": {
+                            "timezone": "BRT",
+                            "start": 1789131600,
+                            "end": 1789156800,
+                            "gmtoffset": -10800
+                        },
+                        "post": {
+                            "timezone": "BRT",
+                            "start": 1789156800,
+                            "end": 1789160400,
+                            "gmtoffset": -10800
+                        }
+                    },
+                    "dataGranularity": "1d",
+                    "range": "5d",
+                    "validRanges": [
+                        "1d",
+                        "5d",
+                        "1mo",
+                        "3mo",
+                        "6mo",
+                        "1y",
+                        "2y",
+                        "5y",
+                        "10y",
+                        "ytd",
+                        "max"
+                    ]
+                },
+                "timestamp": [
+                    1788526800,
+                    1788872400,
+                    1788958800,
+                    1789045200,
+                    1789131600
+                ],
+                "indicators": {
+                    "quote": [
+                        {
+                            "high": [
+                                79.7300033569336,
+                                81.08999633789062,
+                                80.04000091552734,
+                                78.6500015258789,
+                                78.63999938964844
+                            ],
+                            "open": [
+                                78.19999694824219,
+                                79.5999984741211,
+                                78.5,
+                                77.77999877929688,
+                                78.20999908447266
+                            ],
+                            "volume": [
+                                13868300,
+                                17890200,
+                                19118100,
+                                20768000,
+                                12211800
+                            ],
+                            "low": [
+                                77.55000305175781,
+                                79.0199966430664,
+                                78.36000061035156,
+                                77.18000030517578,
+                                77.4000015258789
+                            ],
+                            "close": [
+                                78.62000274658203,
+                                79.0199966430664,
+                                79.0999984741211,
+                                78.2300033569336,
+                                78.19999694824219
+                            ]
+                        }
+                    ],
+                    "adjclose": [
+                        {
+                            "adjclose": [
+                                78.62000274658203,
+                                79.0199966430664,
+                                79.0999984741211,
+                                78.2300033569336,
+                                78.19999694824219
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "error": null
+    }
+}

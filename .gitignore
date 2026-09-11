@@ -3,3 +3,4 @@
 .__pycache__
 .testesrapidos.py
 .env
+.dados/*.json

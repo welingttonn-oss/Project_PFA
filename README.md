@@ -64,3 +64,15 @@ Diário/Cronograma de aprendizado:
     **BÁSCICO**:
         pronto importante, basico mas, as vezes esqueço:
         para separar uma string por um caracter especifico, usa-se split e o replace serve para substituir um por outro.
+
+11/09/2026
+    Trabalhando com API:
+    Tive de criar uma função que busca o valor de um ATIVO, especifico. já havia feito algo parecido com a da moeda, então foi mais tranquilo.
+    Dificuldades:
+        Yahoofinance bloquea acessos de bot, então tive de usar:
+             headers: User-Agent -> simula um navegador
+    Aprendi:
+        que não basta você passar a chave que você quer acessar para imprimr, se quero acessar a C4, preciso chegar até ela:
+        c1,c2,c3,"Nome da chave";
+
+        
