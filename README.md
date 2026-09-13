@@ -75,4 +75,16 @@ Diário/Cronograma de aprendizado:
         que não basta você passar a chave que você quer acessar para imprimr, se quero acessar a C4, preciso chegar até ela:
         c1,c2,c3,"Nome da chave";
 
+12/09/2026:
+    Trabalhando com modulariação e chamadas sob chamadas de funções:
+
+    Aprendi: quando a API está demorando usar um timeout, para não ficar muito tempo esperando um retorno da API
+    Sempre usar as melhores praticas de nomes de variaveis.
+    usar dicionário para retornos multiplos da url
+
+    Criar DEFs que chamam DEVS
+    fazer validação do retorn com is not, pois fizemos um tratamento de dados nas def, daí ela retorna sempre None caso erro.
+    Relembrei:
+    utilizar as dotenv, tinha esquecido como, mas sempre:
+    from dotenv import load_dotenv e import OS usar o OS para chamar o arquivo getenv
         

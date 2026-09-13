@@ -1,5 +1,6 @@
 import requests
 import json
+import datetime
 
 
 def obter_preco(ativo):
@@ -10,17 +11,23 @@ def obter_preco(ativo):
     }
     try:
             
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, timeout=10)
         dados = response.json()
 
         with open ('dados/Yfinance.json', 'w',encoding="utf-8") as arquivo:
             json.dump(dados, arquivo, indent=4, ensure_ascii=False)
         preco = dados["chart"]["result"][0]["meta"]["regularMarketPrice"]
-        return preco
+        data = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        tabela = {'ativo': ativo,
+                 'preco':preco,
+                  'variacao': None,
+                  'data': data
+                }
+        return tabela
     
     except  requests.exceptions.ConnectionError:
         print("Erro: Sem conexão com a internet ou a API caiu.")
-        return None # Retorna dois Nones para evitar o erro de desempacotamento
+        return None# Retorna None para evitar o erro de desempacotamento
 
     except KeyError:
         # Cai aqui se a moeda não existir ou se a URL errada retornar um JSON de erro
@@ -45,30 +52,36 @@ def obter_cotacao(moeda):
 
     # O 'try' começa ANTES de acessar a internet
     try:
-        response = requests.get(url)
+        response = requests.get(url,timeout=10)
         dados = response.json()
 
         with open ('dados/awasome.json', 'w', encoding="utf-8") as arquivo:
             json.dump(dados, arquivo, indent=4, ensure_ascii=False)
             
-        varBi = dados[moeda_json]["varBid"]
-        Bid = dados[moeda_json]["bid"]
+        varBi = float(dados[moeda_json]["varBid"])
+        Bid = float(dados[moeda_json]["bid"])
+        data = dados[moeda_json]["create_date"]
+        tabela = {'ativo': moeda,
+                 'preco':Bid,
+                  'variacao': varBi,
+                  'data': data
+                }
         
-        return varBi, Bid
+        return tabela
         
     except requests.exceptions.ConnectionError:
         print("Erro: Sem conexão com a internet ou a API caiu.")
-        return None, None # Retorna dois Nones para evitar o erro de desempacotamento
+        return None # Retorna None para evitar o erro de desempacotamento
         
     except KeyError:
         # Cai aqui se a moeda não existir ou se a URL errada retornar um JSON de erro
-        return None, None
+        return None
         
     except json.JSONDecodeError:
         # Se você digitar uma URL muito errada, a API pode devolver uma página HTML
         # em vez de um JSON, o que quebra o response.json()
         print("Erro: A resposta da API não está no formato esperado.")
-        return None, None
+        return None
 
 
 def obter_dados(ativo):

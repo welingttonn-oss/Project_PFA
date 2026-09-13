@@ -1,15 +1,5 @@
 {
-    "USDBRL": {
-        "code": "USD",
-        "codein": "BRL",
-        "name": "Dólar Americano/Real Brasileiro",
-        "high": "5.1315",
-        "low": "5.0711",
-        "varBid": "0.0229",
-        "pctChange": "0.448727",
-        "bid": "5.1262",
-        "ask": "5.1266",
-        "timestamp": "1789165806",
-        "create_date": "2026-09-11 19:30:06"
-    }
+    "status": 404,
+    "code": "CoinNotExists",
+    "message": "moeda nao encontrada ABC-XYZ"
 }
