@@ -1,8 +1,21 @@
 
-from src.coleta import obter_preco, obter_cotacao,obter_dados
+from src.coleta import obter_preco, obter_cotacao,obter_dados # importando as funções de SRC
 import os
-from dotenv import load_dotenv
-load_dotenv()
+from dotenv import load_dotenv #Dotenv serve para "esconder" informações importantes 
+import logging # Logging serve para criar logs de execução no Sistemas
+load_dotenv() # Iniciando o dotenv
+
+logging.basicConfig( #configurando o logging
+    level=logging.INFO,
+    filename='logs/coleta.log',
+    format='%(asctime)s | %(levelname)s | %(message)s',
+    datefmt='%d/%m/%Y %I:%M:%S %p',
+    encoding='utf-8'
+)
+logging.getLogger("urllib3").setLevel(logging.WARNING)
+
+logging.info('Processo iniciado!')
+
 ativos = os.getenv('ATIVOS')
 
 sucessos = 0
@@ -15,11 +28,15 @@ print(ativos_separado)
 for i in ativos_separado:
     resultado = obter_dados(i)
     if resultado is not None:
-        print(f"[OK] {i}: R$ {resultado['preco']}")
+        logging.info(f"[OK] {i}: R$ {resultado['preco']}")
         sucessos += 1
     else:
-        print(f"[FALHA] {i}: não foi possível coletar")
+        logging.warning(f"[FALHA] {i}: não foi possível coletar")
         falhas += 1
 
 
-print(f'A quantidade de consultas concluidas: {sucessos}, falhas: {falhas}')
+logging.info(f'A quantidade de consultas concluidas: {sucessos}, falhas: {falhas}')
+
+print()
+
+logging.info('Processo Finalizado!')

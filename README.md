@@ -87,4 +87,10 @@ Diário/Cronograma de aprendizado:
     Relembrei:
     utilizar as dotenv, tinha esquecido como, mas sempre:
     from dotenv import load_dotenv e import OS usar o OS para chamar o arquivo getenv
+13/09/2026:
+    Trabalhando com  Loggings:
+        Loggins serve para criar o "print" funcinal, que é muito mais util, pois, ele guarda a execução, possiveis problemas em um local que armazenaremos para entender a execução do sistema.
+        Loggins temos os estudados: DEBUG, INFO, WARNNING, ERROR E CRITICAL
+            Cada um deles tem uma finalidade, devemos sempre analisar.
+        a formatação do arquivo de logging deve ser apenas no main.py e não duplicado nos arquivos, uma vez criado, seguirá desta forma.
         

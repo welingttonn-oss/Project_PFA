@@ -1,6 +1,7 @@
 import requests
 import json
 import datetime
+import logging
 
 
 def obter_preco(ativo):
@@ -16,7 +17,7 @@ def obter_preco(ativo):
 
         with open ('dados/Yfinance.json', 'w',encoding="utf-8") as arquivo:
             json.dump(dados, arquivo, indent=4, ensure_ascii=False)
-        preco = dados["chart"]["result"][0]["meta"]["regularMarketPrice"]
+        preco = float(dados["chart"]["result"][0]["meta"]["regularMarketPrice"])
         data = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         tabela = {'ativo': ativo,
                  'preco':preco,
@@ -26,18 +27,18 @@ def obter_preco(ativo):
         return tabela
     
     except  requests.exceptions.ConnectionError:
-        print("Erro: Sem conexão com a internet ou a API caiu.")
+        logging.error("Sem conexão com a internet ou a API caiu ao acessar o ativo {ativo}")
         return None# Retorna None para evitar o erro de desempacotamento
 
     except KeyError:
         # Cai aqui se a moeda não existir ou se a URL errada retornar um JSON de erro
-        print('Erro no KeyError')
+        logging.error(f'Erro no KeyError ao acessar o ativo {ativo}')
         return None
         
     except json.JSONDecodeError:
         # Se você digitar uma URL muito errada, a API pode devolver uma página HTML
         # em vez de um JSON, o que quebra o response.json()
-        print("Erro: A resposta da API não está no formato esperado.")
+        logging.error("Erro: A resposta da API não está no formato esperado.")
         return None
 
 #======================================================================================================
@@ -70,17 +71,19 @@ def obter_cotacao(moeda):
         return tabela
         
     except requests.exceptions.ConnectionError:
-        print("Erro: Sem conexão com a internet ou a API caiu.")
+        logging.error("Sem conexão com a internet ou a API caiu.")
         return None # Retorna None para evitar o erro de desempacotamento
         
     except KeyError:
         # Cai aqui se a moeda não existir ou se a URL errada retornar um JSON de erro
+        logging.error(f"KeyError ao coletar {moeda}")
+
         return None
         
     except json.JSONDecodeError:
         # Se você digitar uma URL muito errada, a API pode devolver uma página HTML
         # em vez de um JSON, o que quebra o response.json()
-        print("Erro: A resposta da API não está no formato esperado.")
+        logging.error("A resposta da API não está no formato esperado.")
         return None
 
 

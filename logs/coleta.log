@@ -1,0 +1,52 @@
+09/14/2026 07:10:56 PM Starting new HTTPS connection (1): economia.awesomeapi.com.br:443
+09/14/2026 07:10:57 PM https://economia.awesomeapi.com.br:443 "GET /json/last/USD-BRL HTTP/1.1" 200 None
+09/14/2026 07:10:57 PM [OK] USD-BRL: R$ 5.1461
+09/14/2026 07:10:57 PM Starting new HTTPS connection (1): economia.awesomeapi.com.br:443
+09/14/2026 07:10:58 PM https://economia.awesomeapi.com.br:443 "GET /json/last/EUR-BRL HTTP/1.1" 200 None
+09/14/2026 07:10:58 PM [OK] EUR-BRL: R$ 5.9362
+09/14/2026 07:10:58 PM Starting new HTTPS connection (1): economia.awesomeapi.com.br:443
+09/14/2026 07:10:59 PM https://economia.awesomeapi.com.br:443 "GET /json/last/BTC-BRL HTTP/1.1" 200 None
+09/14/2026 07:10:59 PM [OK] BTC-BRL: R$ 406398.0
+09/14/2026 07:10:59 PM Starting new HTTPS connection (1): economia.awesomeapi.com.br:443
+09/14/2026 07:10:59 PM https://economia.awesomeapi.com.br:443 "GET /json/last/ABC-XYZ HTTP/1.1" 404 None
+09/14/2026 07:10:59 PM [FALHA] ABC-XYZ: n�o foi poss�vel coletar
+09/14/2026 07:10:59 PM Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+09/14/2026 07:11:30 PM https://query1.finance.yahoo.com:443 "GET /v8/finance/chart/PETR4.SA?interval=1d&range=5d HTTP/1.1" 200 1733
+09/14/2026 07:11:30 PM [OK] PETR4.SA: R$ 48.92
+14/09/2026 07:27:56 PM | INFO | Processo iniciado!
+14/09/2026 07:27:56 PM | DEBUG | Starting new HTTPS connection (1): economia.awesomeapi.com.br:443
+14/09/2026 07:28:07 PM | DEBUG | https://economia.awesomeapi.com.br:443 "GET /json/last/USD-BRL HTTP/1.1" 200 None
+14/09/2026 07:28:07 PM | INFO | [OK] USD-BRL: R$ 5.1461
+14/09/2026 07:28:07 PM | DEBUG | Starting new HTTPS connection (1): economia.awesomeapi.com.br:443
+14/09/2026 07:28:18 PM | DEBUG | https://economia.awesomeapi.com.br:443 "GET /json/last/EUR-BRL HTTP/1.1" 200 None
+14/09/2026 07:28:18 PM | INFO | [OK] EUR-BRL: R$ 5.9362
+14/09/2026 07:28:18 PM | DEBUG | Starting new HTTPS connection (1): economia.awesomeapi.com.br:443
+14/09/2026 07:28:28 PM | DEBUG | https://economia.awesomeapi.com.br:443 "GET /json/last/BTC-BRL HTTP/1.1" 200 None
+14/09/2026 07:28:28 PM | INFO | [OK] BTC-BRL: R$ 405942.0
+14/09/2026 07:28:28 PM | DEBUG | Starting new HTTPS connection (1): economia.awesomeapi.com.br:443
+14/09/2026 07:28:39 PM | DEBUG | https://economia.awesomeapi.com.br:443 "GET /json/last/ABC-XYZ HTTP/1.1" 404 None
+14/09/2026 07:28:39 PM | ERROR | KeyError ao coletar ABC-XYZ
+14/09/2026 07:28:39 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+14/09/2026 07:28:39 PM | DEBUG | Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+14/09/2026 07:28:59 PM | DEBUG | https://query1.finance.yahoo.com:443 "GET /v8/finance/chart/PETR4.SA?interval=1d&range=5d HTTP/1.1" 200 1733
+14/09/2026 07:28:59 PM | INFO | [OK] PETR4.SA: R$ 48.92
+14/09/2026 07:28:59 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+14/09/2026 07:28:59 PM | INFO | Processo Finalizado!
+14/09/2026 07:35:22 PM | INFO | Processo iniciado!
+14/09/2026 07:35:33 PM | INFO | [OK] USD-BRL: R$ 5.1435
+14/09/2026 07:35:43 PM | INFO | [OK] EUR-BRL: R$ 5.9362
+14/09/2026 07:35:54 PM | INFO | [OK] BTC-BRL: R$ 405606.0
+14/09/2026 07:36:04 PM | INFO | KeyError ao coletar ABC-XYZ
+14/09/2026 07:36:04 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+14/09/2026 07:36:05 PM | INFO | [OK] PETR4.SA: R$ 48.92
+14/09/2026 07:36:05 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+14/09/2026 07:36:05 PM | INFO | Processo Finalizado!
+14/09/2026 07:40:03 PM | INFO | Processo iniciado!
+14/09/2026 07:40:13 PM | INFO | [OK] USD-BRL: R$ 5.1435
+14/09/2026 07:40:24 PM | INFO | [OK] EUR-BRL: R$ 5.9355
+14/09/2026 07:40:34 PM | INFO | [OK] BTC-BRL: R$ 405539.0
+14/09/2026 07:40:45 PM | ERROR | KeyError ao coletar ABC-XYZ
+14/09/2026 07:40:45 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+14/09/2026 07:40:45 PM | INFO | [OK] PETR4.SA: R$ 48.92
+14/09/2026 07:40:45 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+14/09/2026 07:40:45 PM | INFO | Processo Finalizado!
