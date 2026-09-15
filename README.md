@@ -93,4 +93,11 @@ Diário/Cronograma de aprendizado:
         Loggins temos os estudados: DEBUG, INFO, WARNNING, ERROR E CRITICAL
             Cada um deles tem uma finalidade, devemos sempre analisar.
         a formatação do arquivo de logging deve ser apenas no main.py e não duplicado nos arquivos, uma vez criado, seguirá desta forma.
-        
+    Introdução ao SQLite3
+        Aprendi a criar um banco, uma tabela e acrescentar dados. carece de se aprofundar mais.
+15/09/2026:
+	Aprendizado: 3 funções de manipulação no SQL (Criar, alimentar e retornar dados). 
+	Novamente: logging só configura uma vez. Ainda estou apanhando com os códigos de SQL, estou precisando focar sem pedir tanta ajuda da IA, mas a ideia primária é entender o conceito e ir treinando até melhorar.
+	O mais importante: estava apanhando pra ver os dados sendo alimentado na tabela e o código não quebrava, mas não aparecia nada, depois o Seek me explicou e batata: SEMPRE OLHE O LOGGING, afinal, ele é criado para isso mesmo.
+	Try, except e finnaly, foi introduzido o finnaly, que serve para certificar que será finalizado. No conceito de SQL é super importante a necessidade de fechar o banco.
+    

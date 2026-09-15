@@ -1,5 +1,7 @@
 
 from src.coleta import obter_preco, obter_cotacao,obter_dados # importando as funções de SRC
+from src.db import criar_tabela, salvar_cotacao, listar_cotacoes
+
 import os
 from dotenv import load_dotenv #Dotenv serve para "esconder" informações importantes 
 import logging # Logging serve para criar logs de execução no Sistemas
@@ -40,3 +42,19 @@ logging.info(f'A quantidade de consultas concluidas: {sucessos}, falhas: {falhas
 print()
 
 logging.info('Processo Finalizado!')
+
+
+dicionario = {
+    'ativo': 'VALE3.SA',
+    'preco': 7.6685,
+    'variacao': None,
+    'data': '15/09/2026 20:51:45'
+    
+}
+
+
+salvar_cotacao(dicionario)
+print('fim')
+
+resultado = listar_cotacoes()
+print(resultado)
