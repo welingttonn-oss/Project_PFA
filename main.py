@@ -1,11 +1,11 @@
 
 from src.coleta import obter_preco, obter_cotacao,obter_dados # importando as funções de SRC
 from src.db import criar_tabela, salvar_cotacao, listar_cotacoes
-
 import os
 from dotenv import load_dotenv #Dotenv serve para "esconder" informações importantes 
 import logging # Logging serve para criar logs de execução no Sistemas
 load_dotenv() # Iniciando o dotenv
+
 
 logging.basicConfig( #configurando o logging
     level=logging.INFO,
@@ -20,17 +20,21 @@ logging.info('Processo iniciado!')
 
 ativos = os.getenv('ATIVOS')
 
+criar_tabela()
 sucessos = 0
 falhas = 0
 
 ativos_separado = ativos.split(',')
+logging.info(f'Foi localizado {len(ativos_separado)} ATIVOS para consulta')
 
-print(ativos_separado)
+
+logging.info('Iniciando a coleta dos Ativos')
 
 for i in ativos_separado:
     resultado = obter_dados(i)
     if resultado is not None:
         logging.info(f"[OK] {i}: R$ {resultado['preco']}")
+        salvar_cotacao(resultado)
         sucessos += 1
     else:
         logging.warning(f"[FALHA] {i}: não foi possível coletar")
@@ -44,17 +48,4 @@ print()
 logging.info('Processo Finalizado!')
 
 
-dicionario = {
-    'ativo': 'VALE3.SA',
-    'preco': 7.6685,
-    'variacao': None,
-    'data': '15/09/2026 20:51:45'
-    
-}
 
-
-salvar_cotacao(dicionario)
-print('fim')
-
-resultado = listar_cotacoes()
-print(resultado)

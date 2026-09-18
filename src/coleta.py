@@ -27,11 +27,11 @@ def obter_preco(ativo):
         return tabela
     
     except  requests.exceptions.ConnectionError:
-        logging.error("Sem conexão com a internet ou a API caiu ao acessar o ativo {ativo}")
+        logging.error(f"Sem conexão com a internet ou a API caiu ao acessar o ativo {ativo}")
         return None# Retorna None para evitar o erro de desempacotamento
 
     except KeyError:
-        # Cai aqui se a moeda não existir ou se a URL errada retornar um JSON de erro
+        # Cai aqui se a Ativo não existir ou se a URL errada retornar um JSON de erro
         logging.error(f'Erro no KeyError ao acessar o ativo {ativo}')
         return None
         
@@ -71,7 +71,7 @@ def obter_cotacao(moeda):
         return tabela
         
     except requests.exceptions.ConnectionError:
-        logging.error("Sem conexão com a internet ou a API caiu.")
+        logging.error(f"Sem conexão com a internet ou a API caiu ao acessar {moeda}")
         return None # Retorna None para evitar o erro de desempacotamento
         
     except KeyError:

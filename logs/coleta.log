@@ -57,3 +57,113 @@
 15/09/2026 08:01:00 PM | INFO | Processo iniciado!
 15/09/2026 08:08:29 PM | INFO | Processo iniciado!
 15/09/2026 08:10:16 PM | INFO | Processo iniciado!
+18/09/2026 07:12:43 PM | INFO | Processo iniciado!
+18/09/2026 07:12:43 PM | INFO | Tabela criada com sucesso.
+18/09/2026 07:16:04 PM | INFO | Processo iniciado!
+18/09/2026 07:16:04 PM | INFO | Tabela criada com sucesso.
+18/09/2026 07:16:05 PM | INFO | [OK] USD-BRL: R$ 5.1434
+18/09/2026 07:16:05 PM | ERROR | Erro ao salvar os dados na tabela: string indices must be integers, not 'str'
+18/09/2026 07:16:06 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+18/09/2026 07:16:06 PM | ERROR | Erro ao salvar os dados na tabela: string indices must be integers, not 'str'
+18/09/2026 07:16:07 PM | INFO | [OK] BTC-BRL: R$ 420383.0
+18/09/2026 07:16:07 PM | ERROR | Erro ao salvar os dados na tabela: string indices must be integers, not 'str'
+18/09/2026 07:16:08 PM | ERROR | KeyError ao coletar ABC-XYZ
+18/09/2026 07:16:08 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+18/09/2026 07:16:09 PM | INFO | [OK] PETR4.SA: R$ 48.5
+18/09/2026 07:16:09 PM | ERROR | Erro ao salvar os dados na tabela: string indices must be integers, not 'str'
+18/09/2026 07:16:09 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+18/09/2026 07:16:09 PM | INFO | Processo Finalizado!
+18/09/2026 07:18:47 PM | INFO | Processo iniciado!
+18/09/2026 07:18:47 PM | INFO | Tabela criada com sucesso.
+18/09/2026 07:18:48 PM | INFO | [OK] USD-BRL: R$ 5.1434
+18/09/2026 07:18:48 PM | ERROR | Erro ao salvar os dados na tabela: string indices must be integers, not 'str'
+18/09/2026 07:18:49 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+18/09/2026 07:18:49 PM | ERROR | Erro ao salvar os dados na tabela: string indices must be integers, not 'str'
+18/09/2026 07:18:50 PM | INFO | [OK] BTC-BRL: R$ 420383.0
+18/09/2026 07:18:50 PM | ERROR | Erro ao salvar os dados na tabela: string indices must be integers, not 'str'
+18/09/2026 07:18:51 PM | ERROR | KeyError ao coletar ABC-XYZ
+18/09/2026 07:18:51 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+18/09/2026 07:18:52 PM | INFO | [OK] PETR4.SA: R$ 48.5
+18/09/2026 07:18:52 PM | ERROR | Erro ao salvar os dados na tabela: string indices must be integers, not 'str'
+18/09/2026 07:18:52 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+18/09/2026 07:18:52 PM | INFO | Processo Finalizado!
+18/09/2026 07:20:38 PM | INFO | Processo iniciado!
+18/09/2026 07:20:38 PM | INFO | Tabela criada com sucesso.
+18/09/2026 07:20:39 PM | INFO | [OK] USD-BRL: R$ 5.1434
+18/09/2026 07:20:39 PM | ERROR | Erro ao salvar os dados na tabela: string indices must be integers, not 'str'
+18/09/2026 07:20:40 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+18/09/2026 07:20:40 PM | ERROR | Erro ao salvar os dados na tabela: string indices must be integers, not 'str'
+18/09/2026 07:20:42 PM | INFO | [OK] BTC-BRL: R$ 420266.0
+18/09/2026 07:20:42 PM | ERROR | Erro ao salvar os dados na tabela: string indices must be integers, not 'str'
+18/09/2026 07:20:43 PM | ERROR | KeyError ao coletar ABC-XYZ
+18/09/2026 07:20:43 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+18/09/2026 07:20:43 PM | INFO | [OK] PETR4.SA: R$ 48.5
+18/09/2026 07:20:43 PM | ERROR | Erro ao salvar os dados na tabela: string indices must be integers, not 'str'
+18/09/2026 07:20:43 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+18/09/2026 07:20:43 PM | INFO | Processo Finalizado!
+18/09/2026 07:28:52 PM | INFO | Processo iniciado!
+18/09/2026 07:28:52 PM | INFO | Tabela criada com sucesso.
+18/09/2026 07:28:53 PM | INFO | [OK] USD-BRL: R$ 5.1434
+18/09/2026 07:28:54 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+18/09/2026 07:28:56 PM | INFO | [OK] BTC-BRL: R$ 419882.0
+18/09/2026 07:28:57 PM | ERROR | KeyError ao coletar ABC-XYZ
+18/09/2026 07:28:57 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+18/09/2026 07:29:27 PM | INFO | [OK] PETR4.SA: R$ 48.5
+18/09/2026 07:29:27 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+18/09/2026 07:29:27 PM | INFO | Processo Finalizado!
+18/09/2026 07:29:59 PM | INFO | Processo iniciado!
+18/09/2026 07:29:59 PM | INFO | Tabela criada com sucesso.
+18/09/2026 07:30:00 PM | INFO | [OK] USD-BRL: R$ 5.1434
+18/09/2026 07:30:01 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+18/09/2026 07:30:02 PM | INFO | [OK] BTC-BRL: R$ 419882.0
+18/09/2026 07:30:03 PM | ERROR | KeyError ao coletar ABC-XYZ
+18/09/2026 07:30:03 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+18/09/2026 07:30:33 PM | INFO | [OK] PETR4.SA: R$ 48.5
+18/09/2026 07:30:33 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+18/09/2026 07:30:33 PM | INFO | Processo Finalizado!
+18/09/2026 07:32:08 PM | INFO | Processo iniciado!
+18/09/2026 07:32:08 PM | INFO | Tabela criada com sucesso.
+18/09/2026 07:32:09 PM | INFO | [OK] USD-BRL: R$ 5.1434
+18/09/2026 07:32:10 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+18/09/2026 07:32:11 PM | INFO | [OK] BTC-BRL: R$ 419780.0
+18/09/2026 07:32:12 PM | ERROR | KeyError ao coletar ABC-XYZ
+18/09/2026 07:32:12 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+18/09/2026 07:32:13 PM | INFO | [OK] PETR4.SA: R$ 48.5
+18/09/2026 07:32:13 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+18/09/2026 07:32:13 PM | INFO | Processo Finalizado!
+18/09/2026 07:57:25 PM | INFO | Processo iniciado!
+18/09/2026 07:57:25 PM | INFO | Tabela cotacoes pronta (verificada).
+18/09/2026 07:57:25 PM | INFO | Foi localizado 5 ATIVOS para consulta
+18/09/2026 07:57:25 PM | INFO | Iniciando a coleta dos Ativos
+18/09/2026 07:57:26 PM | INFO | [OK] USD-BRL: R$ 5.1434
+18/09/2026 07:57:27 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+18/09/2026 07:57:29 PM | INFO | [OK] BTC-BRL: R$ 418943.0
+18/09/2026 07:57:30 PM | ERROR | KeyError ao coletar ABC-XYZ
+18/09/2026 07:57:30 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+18/09/2026 07:58:01 PM | INFO | [OK] PETR4.SA: R$ 48.5
+18/09/2026 07:58:01 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+18/09/2026 07:58:01 PM | INFO | Processo Finalizado!
+18/09/2026 08:02:31 PM | INFO | Processo iniciado!
+18/09/2026 08:02:31 PM | INFO | Tabela cotacoes pronta (verificada).
+18/09/2026 08:02:31 PM | INFO | Foi localizado 5 ATIVOS para consulta
+18/09/2026 08:02:31 PM | INFO | Iniciando a coleta dos Ativos
+18/09/2026 08:02:32 PM | INFO | [OK] USD-BRL: R$ 5.1434
+18/09/2026 08:02:33 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+18/09/2026 08:02:34 PM | INFO | [OK] BTC-BRL: R$ 419133.0
+18/09/2026 08:02:35 PM | ERROR | KeyError ao coletar ABC-XYZ
+18/09/2026 08:02:35 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+18/09/2026 08:02:46 PM | INFO | [OK] PETR4.SA: R$ 48.5
+18/09/2026 08:02:46 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+18/09/2026 08:02:46 PM | INFO | Processo Finalizado!
+18/09/2026 08:02:55 PM | INFO | Processo iniciado!
+18/09/2026 08:02:55 PM | INFO | Tabela cotacoes pronta (verificada).
+18/09/2026 08:02:55 PM | INFO | Foi localizado 5 ATIVOS para consulta
+18/09/2026 08:02:55 PM | INFO | Iniciando a coleta dos Ativos
+18/09/2026 08:02:56 PM | INFO | [OK] USD-BRL: R$ 5.1434
+18/09/2026 08:02:57 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+18/09/2026 08:02:58 PM | INFO | [OK] BTC-BRL: R$ 419133.0
+18/09/2026 08:02:59 PM | ERROR | KeyError ao coletar ABC-XYZ
+18/09/2026 08:02:59 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+18/09/2026 08:03:10 PM | INFO | [OK] PETR4.SA: R$ 48.5
+18/09/2026 08:03:10 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+18/09/2026 08:03:10 PM | INFO | Processo Finalizado!

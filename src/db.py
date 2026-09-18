@@ -20,7 +20,7 @@ def criar_tabela():
         conexao.commit()
 
         
-        logging.info('Tabela criada com sucesso.')
+        logging.info('Tabela cotacoes pronta (verificada).')
     except Exception as e:
         logging.error(f'Erro na criação da Tabela: {e}')
     finally:
@@ -40,7 +40,7 @@ def salvar_cotacao(dados):
         conexao.commit()
 
     except Exception as e:
-        logging.error(f'Erro ao salvar os dados na tabela: {e}')
+        logging.error(f"Erro ao salvar {dados['ativo']}: {e}")
     finally:
         conexao.close()
 
@@ -50,7 +50,7 @@ def listar_cotacoes():
     conexao = sqlite3.connect('dados/financas.db')
     cursor = conexao.cursor()
     try:
-        cursor.execute(f'SELECT * FROM cotacoes')
+        cursor.execute('SELECT * FROM cotacoes')
         linhas = cursor.fetchall()
         return linhas
     except Exception as e:

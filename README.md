@@ -101,3 +101,23 @@ Diário/Cronograma de aprendizado:
 	O mais importante: estava apanhando pra ver os dados sendo alimentado na tabela e o código não quebrava, mas não aparecia nada, depois o Seek me explicou e batata: SEMPRE OLHE O LOGGING, afinal, ele é criado para isso mesmo.
 	Try, except e finnaly, foi introduzido o finnaly, que serve para certificar que será finalizado. No conceito de SQL é super importante a necessidade de fechar o banco.
     
+18/09/2026:
+    Aprendizado:
+        Conecação com o banco e chamada de API salvando automatico no banco. Usei a função criar tabela, depois, peguei as funções de buscar os dados na API e salvar em um dicionario, depois peguei a função de salvar no banco de dados e passei esse dicionário para lá.
+        Melhorar o looging para rastrear tudo, ficar de olho nos erros de digitação e diferença entre '' e "", possiveis erros.
+    Dificuldade:
+        Estava pegando o nome do ativo e tentando salvar no banco, acontece que não era o correto, e sim o resultado que a função de buscar os dados devolvia uma tabela padronizada.
+
+/// DOCUMENTAÇÃO DE FUNCIONAMENTO ATUAL F1-E13 ///
+Como iniciar:
+    python main.py
+    Pra que serve:
+    Programa para obter dados de Moedas ou Ativos financeiros:
+    Como funciona:
+    Função de Obter dados consulta item a item nas APIs, valida qual buscar se ativo ou moeda, retorna um dicionario que é salvo no SQLite.
+    Documentos:
+        coleta.py: Funções necessárias para coletar os dados.
+        db.py: Funções de criar e alimentar os dados
+        coleta.log: gravações de logs de acompanhamento.
+    Resultados:
+        financas.db: todas cotações pesquisadas salvas
