@@ -130,40 +130,41 @@ Como iniciar:
     🚀 Como iniciar
         Ative o ambiente virtual:
 
-    text
-        venv\Scripts\activate
-        Execute o programa:
-
-    text
-    python main.py
-        ⚙️ Como funciona
-        O programa percorre a lista de ativos definida no .env, consulta cada um nas APIs (AwesomeAPI para moedas, Yahoo Finance para ações), padroniza o retorno em um dicionário e salva no banco SQLite.
-
-    Fluxo resumido:
+        text
+            venv\Scripts\activate
+            Execute o programa:
 
         text
-        .env → coleta (API) → dicionário padronizado → banco (SQLite) → log
+        python main.py
+    ⚙️ Como funciona
+        O programa percorre a lista de ativos definida no .env, consulta cada um nas APIs (AwesomeAPI para moedas, Yahoo Finance para ações), padroniza o retorno em um dicionário e salva no banco SQLite.
+
+        Fluxo resumido:
+
+            text
+            .env → coleta (API) → dicionário padronizado → banco (SQLite) → log
     📂 Estrutura do projeto
-        Arquivo/Pasta	Descrição
-        main.py	Arquivo principal (maestro). Orquestra tudo.
-        src/coleta.py	Funções de coleta nas APIs.
-        src/db.py	Funções de banco de dados (criar, salvar, listar).
+        Arquivo/Pasta	    Descrição
+        main.py	            Arquivo principal (maestro). Orquestra tudo.
+        src/coleta.py	    Funções de coleta nas APIs.
+        src/db.py	        Funções de banco de dados (criar, salvar, listar).
         dados/financas.db	Banco de dados com as cotações coletadas.
-        logs/coleta.log	Registro de execução (sucessos, falhas, erros).
-        .env	Configurações sensíveis (ativos, e-mail).
+        logs/coleta.log	    Registro de execução (sucessos, falhas, erros).
+        .env	            Configurações sensíveis (ativos, e-mail).
         requirements.txt	Dependências do projeto.
+
     📋 Configuração (.env)
         Crie um arquivo .env na raiz com:
 
-        text
-        ATIVOS=USD-BRL,EUR-BRL,BTC-BRL,PETR4.SA,VALE3.SA
-        EMAIL_DESTINATARIO=seuemail@exemplo.com
-        ⚠️ O .env está no .gitignore e não deve ser versionado.
+            text
+            ATIVOS=USD-BRL,EUR-BRL,BTC-BRL,PETR4.SA,VALE3.SA
+            EMAIL_DESTINATARIO=seuemail@exemplo.com
+            ⚠️ O .env está no .gitignore e não deve ser versionado.
 
     📊 Resultados
         Banco de dados: dados/financas.db (abra com SQLite Viewer para inspecionar).
 
-        Log de execução: logs/coleta.log.
+            Log de execução: logs/coleta.log.
 
     🛠️ Tecnologias usadas
         Python 3.12+
