@@ -3,12 +3,13 @@ import json
 import datetime
 import logging
 
+#Funçao que que obtem o preço de um ativo
 
 def obter_preco(ativo):
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ativo}?interval=1d&range=5d"
 
     headers = {
-    "User-Agent": "Mozilla/5.0"
+    "User-Agent": "Mozilla/5.0"  #Headers faz o API acreditar que está sendo usado um navegador.
     }
     try:
             

@@ -121,3 +121,63 @@ Como iniciar:
         coleta.log: gravações de logs de acompanhamento.
     Resultados:
         financas.db: todas cotações pesquisadas salvas
+
+19/09/2026:
+/// DOCUMENTAÇÃO DE FUNCIONAMENTO F1-E14/// 
+    Personal Finance Automation (PFA)
+        Sistema desktop que coleta cotações de moedas e ações de APIs públicas gratuitas, armazena em banco de dados local e (futuramente) gerará relatórios e envios por e-mail.
+
+    🚀 Como iniciar
+        Ative o ambiente virtual:
+
+    text
+        venv\Scripts\activate
+        Execute o programa:
+
+    text
+    python main.py
+        ⚙️ Como funciona
+        O programa percorre a lista de ativos definida no .env, consulta cada um nas APIs (AwesomeAPI para moedas, Yahoo Finance para ações), padroniza o retorno em um dicionário e salva no banco SQLite.
+
+    Fluxo resumido:
+
+        text
+        .env → coleta (API) → dicionário padronizado → banco (SQLite) → log
+    📂 Estrutura do projeto
+        Arquivo/Pasta	Descrição
+        main.py	Arquivo principal (maestro). Orquestra tudo.
+        src/coleta.py	Funções de coleta nas APIs.
+        src/db.py	Funções de banco de dados (criar, salvar, listar).
+        dados/financas.db	Banco de dados com as cotações coletadas.
+        logs/coleta.log	Registro de execução (sucessos, falhas, erros).
+        .env	Configurações sensíveis (ativos, e-mail).
+        requirements.txt	Dependências do projeto.
+    📋 Configuração (.env)
+        Crie um arquivo .env na raiz com:
+
+        text
+        ATIVOS=USD-BRL,EUR-BRL,BTC-BRL,PETR4.SA,VALE3.SA
+        EMAIL_DESTINATARIO=seuemail@exemplo.com
+        ⚠️ O .env está no .gitignore e não deve ser versionado.
+
+    📊 Resultados
+        Banco de dados: dados/financas.db (abra com SQLite Viewer para inspecionar).
+
+        Log de execução: logs/coleta.log.
+
+    🛠️ Tecnologias usadas
+        Python 3.12+
+
+        requests (requisições HTTP)
+
+        sqlite3 (banco de dados)
+
+        python-dotenv (variáveis de ambiente)
+
+        logging (registro de execução)
+
+    📌 Status do projeto
+        Fase 1 – Módulo de Coleta em andamento (reta final).
+        Próximas fases: processamento/relatórios (pandas + Excel), envio por e-mail, agendamento, interface gráfica e empacotamento em .exe.
+
+

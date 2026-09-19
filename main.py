@@ -18,7 +18,7 @@ logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 logging.info('Processo iniciado!')
 
-ativos = os.getenv('ATIVOS')
+ativos = os.getenv('ATIVOS')    
 
 criar_tabela()
 sucessos = 0
