@@ -181,4 +181,26 @@ Como iniciar:
         Fase 1 – Módulo de Coleta em andamento (reta final).
         Próximas fases: processamento/relatórios (pandas + Excel), envio por e-mail, agendamento, interface gráfica e empacotamento em .exe.
 
+20/09/26 - F1-E15: validações e tratamento de erros refinados
+    aprendi: pesquisar tipos de excepts para casos expecificos: request e SQLite3, pra mim até então era generico para tudo. Env pode está não atualizando, devemos usar o override.
+
+    O != None 
+        funciona para checar se algo não é nulo. O problema com strings vazias ("") ou listas vazias ([]) é que elas são diferentes de None.
+
+        Se você fizer "" != None, a resposta é True (o texto existe, só está vazio).
+
+            É por isso que o if not é o campeão para esses casos: ele considera "", [] e None como "falsos" de uma vez só.
+               
+    exit() vs break
+
+        O break serve exclusivamente para encerrar laços de repetição (for e while), fazendo o programa continuar na linha logo após o laço.
+        O exit() (ou sys.exit()) interrompe o programa inteiro, independente de onde esteja. Em scripts e automações, ele é ótimo para parar tudo quando ocorre um erro fatal (como a falta de conexão com a internet).
+
+    Sempre que usarmos os métodos como upper, split, como no exemplo o ATIVO era uma string imutável, precisaria substitui-la por ela mesmo para o ajuste acontecer ou seja variável = variável.upper()
+    Fazer uma validação se existe internet para poupar do programa entrar ativo a ativo para devolver um erro de conexão.
+    Fizer tratamento de parametro para funções entregar para a API como ela pede para evitar quebra-la.
+
+    Dificuldades:  confundi bastante sprit com split.  Diferença ente is None e if not (is none valida se não existe o que se procura, já o if not, ele verifica se o que procura não tem e se não nada dentro)
+    Sensação: preciso fazer exercícios de logica (sei da importencia, mas com IA, posso focar um pouco mais pra frente, preciso entender a linguagem)
+
 

@@ -167,3 +167,211 @@
 18/09/2026 08:03:10 PM | INFO | [OK] PETR4.SA: R$ 48.5
 18/09/2026 08:03:10 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
 18/09/2026 08:03:10 PM | INFO | Processo Finalizado!
+20/09/2026 02:13:49 PM | INFO | Processo iniciado!
+20/09/2026 02:13:49 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 02:13:49 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 02:13:49 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 02:13:50 PM | INFO | [OK] USD-BRL: R$ 5.1434
+20/09/2026 02:13:51 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 02:13:53 PM | INFO | [OK] BTC-BRL: R$ 419892.0
+20/09/2026 02:13:55 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 02:13:55 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 02:13:56 PM | INFO | [OK] PETR4.SA: R$ 48.5
+20/09/2026 02:13:56 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+20/09/2026 02:13:56 PM | INFO | Processo Finalizado!
+20/09/2026 04:14:47 PM | INFO | Processo iniciado!
+20/09/2026 04:14:47 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:14:47 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:14:47 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:14:48 PM | INFO | [OK] USD-BRL: R$ 5.1434
+20/09/2026 04:14:50 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 04:14:51 PM | INFO | [OK] BTC-BRL: R$ 418507.0
+20/09/2026 04:14:51 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 04:14:51 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:14:52 PM | INFO | [OK] PETR4.SA: R$ 48.5
+20/09/2026 04:14:52 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+20/09/2026 04:14:52 PM | INFO | Processo Finalizado!
+20/09/2026 04:15:21 PM | INFO | Processo iniciado!
+20/09/2026 04:15:21 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:15:21 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:15:21 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:15:22 PM | INFO | [OK] USD-BRL: R$ 5.1434
+20/09/2026 04:15:23 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 04:15:24 PM | INFO | [OK] BTC-BRL: R$ 418507.0
+20/09/2026 04:15:24 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 04:15:24 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:15:25 PM | INFO | [OK] PETR4.SA: R$ 48.5
+20/09/2026 04:15:25 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+20/09/2026 04:15:25 PM | INFO | Processo Finalizado!
+20/09/2026 04:15:51 PM | INFO | Processo iniciado!
+20/09/2026 04:15:51 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:15:51 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:15:51 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:15:52 PM | INFO | [OK] USD-BRL: R$ 5.1434
+20/09/2026 04:15:53 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 04:15:55 PM | INFO | [OK] BTC-BRL: R$ 418507.0
+20/09/2026 04:15:55 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 04:15:55 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:15:56 PM | INFO | [OK] PETR4.SA: R$ 48.5
+20/09/2026 04:15:56 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+20/09/2026 04:15:56 PM | INFO | Processo Finalizado!
+20/09/2026 04:16:41 PM | INFO | Processo iniciado!
+20/09/2026 04:16:41 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:16:41 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:16:41 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:16:42 PM | INFO | [OK] USD-BRL: R$ 5.1434
+20/09/2026 04:16:43 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 04:16:44 PM | INFO | [OK] BTC-BRL: R$ 418678.0
+20/09/2026 04:16:45 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 04:16:45 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:16:45 PM | INFO | [OK] PETR4.SA: R$ 48.5
+20/09/2026 04:16:45 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+20/09/2026 04:16:45 PM | INFO | Processo Finalizado!
+20/09/2026 04:17:36 PM | INFO | Processo iniciado!
+20/09/2026 04:17:36 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:17:36 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:17:36 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:17:37 PM | INFO | [OK] USD-BRL: R$ 5.1434
+20/09/2026 04:17:38 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 04:17:39 PM | INFO | [OK] BTC-BRL: R$ 418678.0
+20/09/2026 04:17:39 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 04:17:39 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:17:40 PM | INFO | [OK] PETR4.SA: R$ 48.5
+20/09/2026 04:17:40 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+20/09/2026 04:17:40 PM | INFO | Processo Finalizado!
+20/09/2026 04:18:01 PM | INFO | Processo iniciado!
+20/09/2026 04:18:01 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:18:01 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:18:01 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:18:02 PM | INFO | [OK] USD-BRL: R$ 5.1434
+20/09/2026 04:18:03 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 04:18:04 PM | INFO | [OK] BTC-BRL: R$ 418678.0
+20/09/2026 04:18:05 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 04:18:05 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:18:05 PM | INFO | [OK] PETR4.SA: R$ 48.5
+20/09/2026 04:18:05 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+20/09/2026 04:18:05 PM | INFO | Processo Finalizado!
+20/09/2026 04:19:14 PM | INFO | Processo iniciado!
+20/09/2026 04:19:14 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:19:14 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:19:14 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:19:15 PM | INFO | [OK] USD-BRL: R$ 5.1434
+20/09/2026 04:19:16 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 04:19:17 PM | INFO | [OK] BTC-BRL: R$ 418678.0
+20/09/2026 04:19:18 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 04:19:18 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:19:19 PM | INFO | [OK] PETR4.SA: R$ 48.5
+20/09/2026 04:19:19 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+20/09/2026 04:19:19 PM | INFO | Processo Finalizado!
+20/09/2026 04:19:35 PM | INFO | Processo iniciado!
+20/09/2026 04:19:35 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:19:35 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:19:35 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:19:35 PM | INFO | [OK] USD-BRL: R$ 5.1434
+20/09/2026 04:19:36 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 04:19:37 PM | INFO | [OK] BTC-BRL: R$ 418678.0
+20/09/2026 04:19:38 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 04:19:38 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:19:39 PM | INFO | [OK] PETR4.SA: R$ 48.5
+20/09/2026 04:19:39 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+20/09/2026 04:19:39 PM | INFO | Processo Finalizado!
+20/09/2026 04:21:19 PM | INFO | Processo iniciado!
+20/09/2026 04:21:19 PM | ERROR | Lista de ativos não existe!
+20/09/2026 04:22:16 PM | INFO | Processo iniciado!
+20/09/2026 04:22:16 PM | ERROR | Lista de ativos não existe!
+20/09/2026 04:22:48 PM | INFO | Processo iniciado!
+20/09/2026 04:22:48 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:22:48 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:22:48 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:22:50 PM | INFO | [OK] USD-BRL: R$ 5.1434
+20/09/2026 04:22:51 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 04:22:52 PM | INFO | [OK] BTC-BRL: R$ 418417.0
+20/09/2026 04:22:53 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 04:22:53 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:22:54 PM | INFO | [OK] PETR4.SA: R$ 48.5
+20/09/2026 04:22:54 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+20/09/2026 04:22:54 PM | INFO | Processo Finalizado!
+20/09/2026 04:23:24 PM | INFO | Processo iniciado!
+20/09/2026 04:23:24 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:23:24 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:23:24 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:23:24 PM | ERROR | Sem conexão com a internet ou a API caiu ao acessar USD-BRL
+20/09/2026 04:23:24 PM | WARNING | [FALHA] USD-BRL: não foi possível coletar
+20/09/2026 04:23:24 PM | ERROR | Sem conexão com a internet ou a API caiu ao acessar EUR-BRL
+20/09/2026 04:23:24 PM | WARNING | [FALHA] EUR-BRL: não foi possível coletar
+20/09/2026 04:23:24 PM | ERROR | Sem conexão com a internet ou a API caiu ao acessar BTC-BRL
+20/09/2026 04:23:24 PM | WARNING | [FALHA] BTC-BRL: não foi possível coletar
+20/09/2026 04:23:24 PM | ERROR | Sem conexão com a internet ou a API caiu ao acessar ABC-XYZ
+20/09/2026 04:23:24 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:23:24 PM | ERROR | Sem conexão com a internet ou a API caiu ao acessar o ativo PETR4.SA
+20/09/2026 04:23:24 PM | WARNING | [FALHA] PETR4.SA: não foi possível coletar
+20/09/2026 04:23:24 PM | INFO | A quantidade de consultas concluidas: 0, falhas: 5
+20/09/2026 04:23:24 PM | INFO | Processo Finalizado!
+20/09/2026 04:31:31 PM | INFO | Processo iniciado!
+20/09/2026 04:31:31 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:31:31 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:31:31 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:31:52 PM | INFO | Processo iniciado!
+20/09/2026 04:31:52 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:31:52 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:31:52 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:33:27 PM | INFO | Processo iniciado!
+20/09/2026 04:33:27 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:33:27 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:33:27 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:33:27 PM | ERROR | Sem conexão com a internet!
+20/09/2026 04:33:50 PM | INFO | Processo iniciado!
+20/09/2026 04:33:50 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:33:50 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:33:50 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:34:02 PM | ERROR | Tempo esgotado ao acessar a API
+20/09/2026 04:34:02 PM | WARNING | [FALHA] USD-BRL: não foi possível coletar
+20/09/2026 04:34:15 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 04:34:16 PM | INFO | [OK] BTC-BRL: R$ 418680.0
+20/09/2026 04:34:17 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 04:34:17 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:34:37 PM | INFO | Processo iniciado!
+20/09/2026 04:34:37 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:34:37 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:34:37 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:34:49 PM | ERROR | Tempo esgotado ao acessar a API
+20/09/2026 04:34:49 PM | WARNING | [FALHA] USD-BRL: não foi possível coletar
+20/09/2026 04:35:07 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 04:35:07 PM | INFO | [OK] BTC-BRL: R$ 418680.0
+20/09/2026 04:35:08 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 04:35:08 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:35:28 PM | ERROR | Tempo esgotado ao acessar a API
+20/09/2026 04:35:28 PM | WARNING | [FALHA] PETR4.SA: não foi possível coletar
+20/09/2026 04:35:28 PM | INFO | A quantidade de consultas concluidas: 2, falhas: 3
+20/09/2026 04:35:28 PM | INFO | Processo Finalizado!
+20/09/2026 04:36:46 PM | INFO | Processo iniciado!
+20/09/2026 04:36:46 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:36:46 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:36:46 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:36:47 PM | INFO | Conectado com a internet!
+20/09/2026 04:36:48 PM | INFO | [OK] USD-BRL: R$ 5.1434
+20/09/2026 04:36:49 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 04:37:00 PM | ERROR | Tempo esgotado ao acessar a API
+20/09/2026 04:37:00 PM | WARNING | [FALHA] BTC-BRL: não foi possível coletar
+20/09/2026 04:37:11 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 04:37:11 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:37:42 PM | INFO | [OK] PETR4.SA: R$ 48.5
+20/09/2026 04:37:42 PM | INFO | A quantidade de consultas concluidas: 3, falhas: 2
+20/09/2026 04:37:42 PM | INFO | Processo Finalizado!
+20/09/2026 04:42:50 PM | INFO | Processo iniciado!
+20/09/2026 04:42:50 PM | INFO | Lista de consulta de ativos está vazia
+20/09/2026 04:43:15 PM | INFO | Processo iniciado!
+20/09/2026 04:43:15 PM | ERROR | Sem conexão com a internet!
+20/09/2026 04:44:28 PM | INFO | Processo iniciado!
+20/09/2026 04:44:30 PM | INFO | Conectado com a internet!
+20/09/2026 04:44:30 PM | INFO | Tabela cotacoes pronta (verificada).
+20/09/2026 04:44:30 PM | INFO | Foi localizado 5 ATIVOS para consulta
+20/09/2026 04:44:30 PM | INFO | Iniciando a coleta dos Ativos
+20/09/2026 04:44:31 PM | INFO | [OK] USD-BRL: R$ 5.1434
+20/09/2026 04:44:31 PM | INFO | [OK] EUR-BRL: R$ 5.9059
+20/09/2026 04:44:32 PM | INFO | [OK] BTC-BRL: R$ 419317.0
+20/09/2026 04:44:33 PM | ERROR | KeyError ao coletar ABC-XYZ
+20/09/2026 04:44:33 PM | WARNING | [FALHA] ABC-XYZ: não foi possível coletar
+20/09/2026 04:44:54 PM | INFO | [OK] PETR4.SA: R$ 48.5
+20/09/2026 04:44:54 PM | INFO | A quantidade de consultas concluidas: 4, falhas: 1
+20/09/2026 04:44:54 PM | INFO | Processo Finalizado!

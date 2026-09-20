@@ -1,12 +1,5 @@
-import os
-import logging
+import requests
+import json
 
-testando = "Olá mundo, estou aprendendo Loggings"
 
-logging.basicConfig(level=logging.DEBUG)
 
-logging.debug(testando)
-logging.info(testando)
-logging.warning(testando)
-logging.error(testando)
-logging.critical(testando)

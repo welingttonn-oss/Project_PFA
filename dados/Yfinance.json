@@ -20,10 +20,10 @@
                     "fulldayChange": -0.11,
                     "fulldayChangePercent": -0.226,
                     "fiftyTwoWeekHigh": 50.7,
-                    "fiftyTwoWeekLow": 29.31,
-                    "regularMarketDayHigh": 48.83,
-                    "regularMarketDayLow": 48.25,
-                    "regularMarketVolume": 52733500,
+                    "fiftyTwoWeekLow": 0.0,
+                    "regularMarketDayHigh": 0.0,
+                    "regularMarketDayLow": 0.0,
+                    "regularMarketVolume": 0,
                     "longName": "Petróleo Brasileiro S.A. - Petrobras",
                     "shortName": "PETROBRAS   PN      N2",
                     "chartPreviousClose": 49.0,
@@ -81,6 +81,20 @@
                                 null,
                                 48.400001525878906
                             ],
+                            "close": [
+                                48.91999816894531,
+                                50.43000030517578,
+                                48.650001525878906,
+                                null,
+                                48.5
+                            ],
+                            "low": [
+                                48.61000061035156,
+                                49.029998779296875,
+                                48.619998931884766,
+                                null,
+                                48.25
+                            ],
                             "high": [
                                 49.72999954223633,
                                 50.70000076293945,
@@ -94,20 +108,6 @@
                                 52457100,
                                 null,
                                 52733500
-                            ],
-                            "low": [
-                                48.61000061035156,
-                                49.029998779296875,
-                                48.619998931884766,
-                                null,
-                                48.25
-                            ],
-                            "close": [
-                                48.91999816894531,
-                                50.43000030517578,
-                                48.650001525878906,
-                                null,
-                                48.5
                             ]
                         }
                     ],

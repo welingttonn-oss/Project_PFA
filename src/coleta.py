@@ -3,7 +3,7 @@ import json
 import datetime
 import logging
 
-#Funçao que que obtem o preço de um ativo
+#Funçao que que obtem o preço de um ativo,  é acionada pela função obter_dados recebe o ativo e revolve 4 parametros, ativo, preco, variacao e data.
 
 def obter_preco(ativo):
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ativo}?interval=1d&range=5d"
@@ -26,10 +26,14 @@ def obter_preco(ativo):
                   'data': data
                 }
         return tabela
+    except requests.Timeout:
+        logging.error('Tempo esgotado ao acessar a API')
+        return None
     
     except  requests.exceptions.ConnectionError:
         logging.error(f"Sem conexão com a internet ou a API caiu ao acessar o ativo {ativo}")
         return None# Retorna None para evitar o erro de desempacotamento
+
 
     except KeyError:
         # Cai aqui se a Ativo não existir ou se a URL errada retornar um JSON de erro
@@ -44,6 +48,7 @@ def obter_preco(ativo):
 
 #======================================================================================================
 
+# Função de obter cotação de uma moeda, é acionada pela função obter_dados recebe o ativo e revolve 4 parametros, ativo, preco, variacao e data.
 
 def obter_cotacao(moeda):
     if "-" not in moeda:
@@ -70,6 +75,10 @@ def obter_cotacao(moeda):
                 }
         
         return tabela
+    
+    except requests.Timeout:
+        logging.error('Tempo esgotado ao acessar a API')
+        return None
         
     except requests.exceptions.ConnectionError:
         logging.error(f"Sem conexão com a internet ou a API caiu ao acessar {moeda}")
@@ -88,6 +97,7 @@ def obter_cotacao(moeda):
         return None
 
 
+#função que descide qual função chamar, recebe um ativo e decide se é para moeda ou ativo, recebe um ativo e devolve o retorno da função escolhida sendo: revolve 4 parametros, ativo, preco, variacao e data.
 def obter_dados(ativo):
     if ativo.endswith('.SA'):
         return obter_preco(ativo)
