@@ -3,7 +3,7 @@ import json
 import datetime
 import logging
 
-#Funçao que que obtem o preço de um ativo,  é acionada pela função obter_dados recebe o ativo e revolve 4 parametros, ativo, preco, variacao e data.
+#Funçao que obtem o preço de um ativo,  é chamda pela função obter_dados recebe o ativo e devolve 4 parametros, ativo, preco, variacao e data.
 
 def obter_preco(ativo):
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ativo}?interval=1d&range=5d"
@@ -26,7 +26,7 @@ def obter_preco(ativo):
                   'data': data
                 }
         return tabela
-    except requests.Timeout:
+    except requests.Timeout: #Limita o tempo de espera da API
         logging.error('Tempo esgotado ao acessar a API')
         return None
     
@@ -36,16 +36,18 @@ def obter_preco(ativo):
 
 
     except KeyError:
-        # Cai aqui se a Ativo não existir ou se a URL errada retornar um JSON de erro
-        logging.error(f'Erro no KeyError ao acessar o ativo {ativo}')
+        # Cai aqui se o ativo não existir ou se a URL errada retornar um JSON de erro
+        logging.error(f'Erro de chave ao acessar o ativo {ativo}')
         return None
         
     except json.JSONDecodeError:
-        # Se você digitar uma URL muito errada, a API pode devolver uma página HTML
+        # Se a API devolver algo que não é JSON
         # em vez de um JSON, o que quebra o response.json()
         logging.error("Erro: A resposta da API não está no formato esperado.")
         return None
-
+    except Exception as e:
+        logging.error(f'Ativo {ativo} sem dados: {e}')
+        return None
 #======================================================================================================
 
 # Função de obter cotação de uma moeda, é acionada pela função obter_dados recebe o ativo e revolve 4 parametros, ativo, preco, variacao e data.
@@ -82,16 +84,16 @@ def obter_cotacao(moeda):
         
     except requests.exceptions.ConnectionError:
         logging.error(f"Sem conexão com a internet ou a API caiu ao acessar {moeda}")
-        return None # Retorna None para evitar o erro de desempacotamento
+        return None # Retorna None para sinalizar falha
         
     except KeyError:
         # Cai aqui se a moeda não existir ou se a URL errada retornar um JSON de erro
-        logging.error(f"KeyError ao coletar {moeda}")
+        logging.error(f"Erro de chave ao coletar {moeda}")
 
         return None
         
     except json.JSONDecodeError:
-        # Se você digitar uma URL muito errada, a API pode devolver uma página HTML
+        # Se a API devolver algo que não é JSON
         # em vez de um JSON, o que quebra o response.json()
         logging.error("A resposta da API não está no formato esperado.")
         return None

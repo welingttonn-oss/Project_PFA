@@ -203,4 +203,21 @@ Como iniciar:
     Dificuldades:  confundi bastante sprit com split.  Diferença ente is None e if not (is none valida se não existe o que se procura, já o if not, ele verifica se o que procura não tem e se não nada dentro)
     Sensação: preciso fazer exercícios de logica (sei da importencia, mas com IA, posso focar um pouco mais pra frente, preciso entender a linguagem)
 
+26/09/2026:
+    O que foi feito: função listar_ultimas(limite) com ORDER BY + LIMIT, validação de limite negativo, formatação da saída no log.
+    Aprendizados: ordem de fechamento (cursor antes de conexão), parâmetros em LIMIT, formatação de tuplas no log.
+     Dificuldades: erro de ProgrammingError por fechar conexão antes do cursor — resolvido ajustando a ordem.
+    Os testes realizados (5, 33, 34, 42 ativos).
+    Os padrões observados (timeouts, ativos sem dados, tempo total).
+     Aprendizados: APIs públicas têm limites, resiliência funciona, tempo varia.
+    Aprendizado:
+        Revisei os três arquivos com olhar crítico: comentários, nomes, mensagens de log e tratamento de exceções.
+        Corrigi comentários desatualizados (alguns falavam de "desempacotamento", que não existe mais).
+        Padronizei mensagens de log e ajustei indentação.
+        Adicionei return None explícito no except Exception do obter_preco.
+    Aprendizados-chave:
+        Refatorar é melhorar a forma sem mudar o comportamento.
+        Comentários envelhecem: precisam ser revisados junto com o código.
+        Consistência é mais importante que "esperteza" no código.
+    Próximos passos: docstrings nas funções (F1-E19).
 
